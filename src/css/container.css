@@ -1,19 +1,38 @@
 /* Styles for Mobile devices */
-.container {
-  min-width: 320px;
-  max-width: 375px;
-  margin: 0 auto;
+.cont {
+  /* min-width: 320px;
+  max-width: 375px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
   padding: 0 16px;
 }
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
-  .container {
+  .cont {
     max-width: 768px;
   }
 }
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1200px) {
-  .container {
+  .cont {
     max-width: 1200px;
   }
+}
+.hero {
+  display: flex;
+
+  text-align: center;
+  margin-bottom: 32px;
+}
+.gallery-image {
+  max-height: 200px;
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
 }

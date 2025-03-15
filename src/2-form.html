@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="node_modules/simplelightbox/dist/simple-lightbox.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>Feedback form</title>
+  </head>
+  <body>
+    <header>
+      <div class="cont">
+        <h1 class="hero">Feedback</h1>
+        <form class="feedback-form" autocomplete="off">
+          <label>
+            Email
+            <input class="form-email" type="email" name="email" autofocus />
+          </label>
+          <label>
+            Message
+            <textarea class="message" name="message" rows="8"></textarea>
+          </label>
+          <button class="submit" type="submit">Submit</button>
+        </form>
+      </div>
+    </header>
+
+    <script type="module" src="./js/2-form.js"></script>
+  </body>
+</html>
