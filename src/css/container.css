@@ -30,6 +30,9 @@
 .gallery-image {
   max-height: 200px;
 }
+.simple-lightbox {
+  background: rgba(46, 47, 66, 0.8);
+}
 .gallery {
   display: flex;
   justify-content: center;
