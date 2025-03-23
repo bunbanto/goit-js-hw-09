@@ -27,9 +27,9 @@
   text-align: center;
   margin-bottom: 32px;
 }
-.gallery-image {
+/* .gallery-image {
   max-height: 200px;
-}
+} */
 .simple-lightbox {
   background: rgba(46, 47, 66, 0.8);
 }
@@ -37,5 +37,8 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 20px;
+}
+.gallery-item {
+  width: calc((100% - 40px) / 3);
 }

@@ -85,3 +85,8 @@ const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
 });
+
+// lightbox.on('show.simplelightbox', function () {
+//   const box = document.querySelector('.simple-lightbox');
+//   box.style.background = rgba(46, 47, 66, 0.8);
+// });
